@@ -24,3 +24,8 @@ mainCard.style.color = "#fff"
 // add in body
 document.body.appendChild(container)
 }
+
+for(let i = 0; i < 5; i++)
+{
+    Card()
+}
