@@ -1,5 +1,4 @@
 // add card func
-
 function Card() {
     // createCard
 let container = document.createElement("div")
@@ -17,7 +16,7 @@ container.appendChild(mainCard)
 
 // add style_to_card
 
-container.style.cssText = `text-align: center; padding: 10px; background-color: #0ef; width: fit-content; margin: 0 auto`
+container.style.cssText = `text-align: center; padding: 10px; background-color: #0ef; width: fit-content; margin: 10px auto`
 img.style.width = "250px"
 mainCard.style.color = "#fff"
 
@@ -25,7 +24,10 @@ mainCard.style.color = "#fff"
 document.body.appendChild(container)
 }
 
-for(let i = 0; i < 5; i++)
+// numbers of cards
+let numsCard = window.prompt("choose num of cards: ")
+
+for(let i = 0; i < numsCard; i++)
 {
     Card()
 }
