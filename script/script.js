@@ -1,4 +1,7 @@
-// createCard
+// add card func
+
+function Card() {
+    // createCard
 let container = document.createElement("div")
 let img = document.createElement("img")
 let mainCard = document.createElement("h1")
@@ -20,3 +23,4 @@ mainCard.style.color = "#fff"
 
 // add in body
 document.body.appendChild(container)
+}
